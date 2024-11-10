@@ -1,0 +1,42 @@
+.edu-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.edu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.box-con-edu{
+    width: 80%;
+    background-color: #736F72;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.College-name{
+    font-size: 25px;   
+}
+.Eng{
+    width: 50%;
+    
+}
+@media screen and (min-width:0px) and (max-width:750px) {
+    .box-con-edu {
+        flex-direction: column;
+    }
+    .Eng{
+        width: 100%;
+    }
+    .edu-text{
+        width: 90%;
+    }
+}
